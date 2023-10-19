@@ -1,0 +1,79 @@
+
+/* Style for the navabar */
+.nav{
+    width: wh;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #70259B;
+    display: flex; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Style for inside the navbar */
+.nav .inside{
+    display: flex;
+    width: 1280px;
+    height: 80px;
+    padding: 8px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Style for the logo */
+.logo{
+    width: 100px;
+    height: 30.769px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 80px;
+    top: 24.6155px;
+}
+
+/* navbar-menu style */
+.nabarMenu{
+    display: flex;
+    width: 649px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.innerMenu{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.pageLink{
+    display: flex;
+    align-items: flex-start;
+    color:#FFFFFF;
+}
+
+.link {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Use the parent element's color */
+}
+
+.navButton{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-main, #70259B);
+    /* body/Bold/14 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    border-radius: 50px;
+    background: var(--shades-white, #FFF);
+    position: absolute;
+    right: 80px;
+    top:21.5px;
+}
