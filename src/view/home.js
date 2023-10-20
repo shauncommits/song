@@ -43,6 +43,22 @@ function Home() {
                 <button className={styles.navButton}>Let's Talk</button>
             </div>
         </div>
+
+        <div className={styles.upperBackground}>
+            <div className={styles.hero}>
+                <div className={styles.text}>
+                    Live with Confidence    
+                    <div className={styles.innerText}>
+                        José Mourinho brings confidence to pan-African Sanlam
+                        <br></br>
+                        compaign
+                     </div>
+                     <div>
+                     <button className={styles.viewButton}>View project</button>
+                     </div>
+                </div>
+            </div>
+        </div>
     </div>
   );
 }
