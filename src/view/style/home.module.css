@@ -128,3 +128,110 @@
     border: none;
     color: #FFFFFF;
 }
+
+.middleBackground{
+    width: wh;
+    height: 3310px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.firstInnerMiddle{
+    margin: 5%;
+}
+
+.heading{
+    display: flex;
+}
+
+.rectangle{
+    width: 40px;
+    height: 4px;
+    flex-shrink: 0;
+    background: var(--primary-active, #D100C9); 
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.headingText{
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--shades-700, #242424);
+    margin-top: 40px;
+    /* heading/is-1 */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */
+    padding: 7px;
+}
+
+.row{
+    margin-top: 30px;
+    display: flex;
+}
+
+.fields{
+    flex: 1; /* Each column takes up an equal amount of space */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.rowTitle{
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+
+    /* heading/is-4 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.caseHeading{
+    display: flex;
+    margin-top: 50px;
+}
+
+.column{
+    flex: 1; /* Each column takes up an equal amount of space */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center align content*/
+    margin-bottom: 40px;
+}
+
+.caseImg{
+    max-width: 100%; /* Ensure images don't exceed column width */
+    height: 100%; /* Set the height to 100% of the width */
+    object-fit: cover; /* Maintain aspect ratio and fill the space */
+
+    background: var(--shades-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(54, 54, 54, 0.10);
+}
+
+.brandsTitle{
+    margin-top: 38px;
+    display: flex;
+    height: 68px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--shades-700, #242424);
+    /* heading/is-1 */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */
+    margin-left: 7px;
+}
