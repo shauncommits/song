@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './style/home.module.css';
 import logo from './images/logo.svg';
 import webIcon from './images/WebDevIcon.svg';
 import uixIcon from './images/UXIcon.svg';
 import appIcon from './images/AppDevIcon.svg';
 import blockchainIcon from './images/icon.svg';
-import olympian from './images/olympian.png';
-import savings from './images/savings.jpeg';
-import skhokho from './images/skhokho.jpeg';
 import visa from './images/visa.svg';
 import tyme from './images/tyme.svg';
 import distell from './images/distell.svg';
@@ -28,7 +25,31 @@ import bbc from './images/bbc.svg';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
 
+
+  
+
 function Home() {
+
+    const [apiData, setApiData] = useState(null); // useState
+    let data = {};
+
+    // Method to get data from the backend
+    useEffect(() => {
+        const fetchData = async () => {
+        try {
+            const response = await fetch('https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws');
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            data = await response.json();
+            setApiData(data);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+        };
+    
+        fetchData();
+    }, []);
   return (
     <div>
         <div className={styles.nav}>
@@ -143,19 +164,27 @@ function Home() {
                        Case Studies
                     </div>
                 </div>
+                {/* Display the API data */}
+                    {apiData ? (
+                       <div className={styles.row}>
+                            {apiData.map((item, index) => (
+                            <div key={index} className={styles.column}>
+                                <div className={styles.imageContainer}>
+                                    <img className={styles.caseImg}  src={item.imageUrl} alt={item.title} />
+                                    <div className={styles.imageText}>
+                                    <div className={styles.rectangleImg}></div>
+                                        <h2>{item.title}</h2>
+                                        <p className={styles.imgTextDesc}>{item.description}</p>
+                                    </div>
+                                </div>
+                          </div>
+                            ))}
+                       </div>  
+                        ) : (
+                        <p>Loading data...</p>
+                    )}
 
-                <div className={styles.row}>
-                    <div className={styles.column}>
-                        <img className={styles.caseImg} src={olympian} alt=''/>
-                    </div>
-                    <div className={styles.column}>
-                        <img className={styles.caseImg} src={savings} alt=''/>
-                    </div>
-                    <div className={styles.column}>
-                        <img className={styles.caseImg} src={skhokho} alt=''/>
-                    </div>
-                </div>                
-
+                              
                 <div className={styles.heading}>
                     <div className={styles.rectangle}> 
                     </div>

@@ -152,6 +152,13 @@
     margin-left: 8px;
 }
 
+.rectangleImg{
+    width: 40px;
+    height: 4px;
+    flex-shrink: 0;
+    background: var(--primary-active, #D100C9); 
+}
+
 .headingText{
     margin-left: 15px;
     white-space: nowrap;
@@ -312,4 +319,42 @@
     font-weight: 400;
     line-height: 150%; /* 30px */
     margin-top: 60px;
+}
+
+.imageContainer{
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    text-align:left;
+}
+
+.imageText{
+    position: absolute;
+    top: 73%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 80%;
+
+}
+
+h2{
+    color: var(--shades-white, #FFF);
+    /* heading/is-3 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    white-space: nowrap;
+}
+
+.imgTextDesc{
+    align-self: stretch;
+    color: var(--shades-white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
 }
