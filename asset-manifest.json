@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shauncommits/song/static/css/main.9698fb2f.css",
+    "main.js": "/shauncommits/song/static/js/main.28907c58.js",
+    "static/js/787.3aa0848a.chunk.js": "/shauncommits/song/static/js/787.3aa0848a.chunk.js",
+    "static/media/hero.png": "/shauncommits/song/static/media/hero.778617abcc452cbfe333.png",
+    "static/media/wesgrow.svg": "/shauncommits/song/static/media/wesgrow.b0cc3bf0d7a2691e9e597d70a03d844d.svg",
+    "static/media/tyme.svg": "/shauncommits/song/static/media/tyme.a47d88b0f3b68d2719764439f5dca555.svg",
+    "static/media/spotify.svg": "/shauncommits/song/static/media/spotify.66badc846ce58e73a6d4a07b11c05e70.svg",
+    "static/media/sanlam.svg": "/shauncommits/song/static/media/sanlam.b0764f73e770ce042eb5a0c1a36599bf.svg",
+    "static/media/multichoice.svg": "/shauncommits/song/static/media/multichoice.2cb504d77d576b425b007946cdd89af7.svg",
+    "static/media/engen.svg": "/shauncommits/song/static/media/engen.e809cc93c17c36720f98c89d34b1bdf2.svg",
+    "static/media/pnp.svg": "/shauncommits/song/static/media/pnp.9fd83fa215a96371574dd797491c145e.svg",
+    "static/media/microsoft.svg": "/shauncommits/song/static/media/microsoft.855edecda115d37e3a8d4700c9370a7a.svg",
+    "static/media/distell.svg": "/shauncommits/song/static/media/distell.0a2b2966460f6d45c7f9eece468340da.svg",
+    "static/media/santam.svg": "/shauncommits/song/static/media/santam.966c7b87f7f652cc18b4ca16660efea6.svg",
+    "static/media/bbc.svg": "/shauncommits/song/static/media/bbc.9c8678d5a0233f023cdba7bd3dff972d.svg",
+    "static/media/logo.svg": "/shauncommits/song/static/media/logo.9d9722280961951186c099e9fd32ee97.svg",
+    "static/media/liquid.svg": "/shauncommits/song/static/media/liquid.c6b561e589bae633a7396237deb92b3a.svg",
+    "static/media/visa.svg": "/shauncommits/song/static/media/visa.546da8c378e0b76d8225483300441eba.svg",
+    "static/media/tfg.svg": "/shauncommits/song/static/media/tfg.e11242a7c0cbcab7749c84b56e267525.svg",
+    "static/media/AppDevIcon.svg": "/shauncommits/song/static/media/AppDevIcon.f86bcca889a7f09144d017de4e02a012.svg",
+    "static/media/icon.svg": "/shauncommits/song/static/media/icon.26f9cc01ab5b573aa8447589f7fd46cb.svg",
+    "static/media/WebDevIcon.svg": "/shauncommits/song/static/media/WebDevIcon.5346dd33936453071f432f0b44466d5c.svg",
+    "static/media/UXIcon.svg": "/shauncommits/song/static/media/UXIcon.249cf5d141feebef2dda510c8eb43e65.svg",
+    "static/media/nike.svg": "/shauncommits/song/static/media/nike.ead20b9da85edea41d125aceb8e6b74a.svg",
+    "index.html": "/shauncommits/song/index.html",
+    "main.9698fb2f.css.map": "/shauncommits/song/static/css/main.9698fb2f.css.map",
+    "main.28907c58.js.map": "/shauncommits/song/static/js/main.28907c58.js.map",
+    "787.3aa0848a.chunk.js.map": "/shauncommits/song/static/js/787.3aa0848a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9698fb2f.css",
+    "static/js/main.28907c58.js"
+  ]
+}
