@@ -23,3 +23,5 @@ React Challenge
 1. cd song (open song directory)
 2. Run: npm start
 
+# Link to the project: https://song-gyqh.vercel.app/
+
